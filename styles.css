@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.header_title{
+    background-color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 14px;
+}
+.grid_tasks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    gap: 10px;
+
+}
+
+.task button{
+    background-color: red;
+    height: 30px;
+    border-radius: 8px;
+    color: rgb(8, 8, 8);
+}
+.task button:hover{
+    background-color: rgba(16, 139, 4, 0.384);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.task h5{
+    color: white;
+}
